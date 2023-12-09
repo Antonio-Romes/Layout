@@ -1,0 +1,789 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;300;400;500;600&family=Merriweather:ital,wght@0,300;0,400;1,300&family=Roboto+Slab:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;300;400;500;600&family=Merriweather:ital,wght@0,300;0,400;1,300&family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400&family=Roboto+Slab:wght@300;400;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 74px;
+    padding: 0 390px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+nav{
+    width: 1140px;
+    height: 74px;
+    padding: 19px 0 17px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 998.849px;
+    flex-shrink: 0;
+}
+
+nav h3{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.section-home{
+    width: 100%;
+    height: 761px;
+    background-image: url();
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(/img/section.jpeg), lightgray 0px -259.7px / 100% 168.252% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-home-content{
+    width: 720px;
+    height: 434px;
+    background-color: rgb(129, 193, 50,0.1); 
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-home-content p{
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;  
+}
+
+.section-home-content h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; 
+    margin: 20px 0;
+}
+
+.btn-read-more{
+    width: auto;
+    height: auto; 
+    background-color: #81C132;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2px; 
+    padding: 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.div-top-left, .div-botton-right{
+    width: 100px;
+    height: 100px;
+}
+
+.div-top-left{
+      
+    position: absolute; 
+    top:0;
+    right: 0;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+
+.div-botton-right{
+     
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+}
+ 
+.section-sobre, .article-sobre{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section-sobre{
+    margin-top:  60px; 
+}
+
+.section-image-tree{
+    display: flex;
+    justify-content: center;
+}
+.image-tree{
+    width: 570px;
+    height: 496px;
+    background: url(/img/image-tree.jpg), lightgray 0px -2.284px / 100% 100.921% no-repeat; 
+    background-position: center; 
+    box-shadow: 0px 0px 40px 0px rgba(26, 26, 26, 0.40);
+}
+
+.text-image-tree{
+    width: 548px;
+    height: 417px;
+    margin-left: 22px;
+}
+
+.text-image-tree h2{
+    color: #000;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    padding: 62px 0 0 38px;
+}
+
+.text-image-tree p{
+    color: #111; 
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 160% */
+    padding: 10px 68px 68px 38px;
+}
+
+.div-line{
+    width: 10%;  
+    margin: 20px 40px;
+    border-top: 3px solid #81C132; 
+
+}
+
+.section-image-manintheforest{
+    display: flex;
+    padding-bottom: 118px;
+}
+
+.text-message{
+    width: 301px;
+    height: 286px;
+    padding: 86px 24px 58px 20px;
+}
+
+.text-message p{ 
+    color: #111;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+.image-manintheforest{
+    width: 572px;
+    height: 365px;
+    background: url(/img/man_in_the_forest.jpg), lightgray 0px -2.284px / 100% 100.921% no-repeat; 
+    background-position: center; 
+    box-shadow: 0px 0px 40px 0px rgba(26, 26, 26, 0.40);
+    position: relative;
+    top:-75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-image-manintheforest{
+    width: 405px;
+    height: 253px;
+    background-color: #ccc;
+    padding: 17px 83px  0 41px; 
+    position: relative;
+    right: -300px;
+}
+
+.text-image-manintheforest h2{
+    color: #111; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.6px;  
+    
+}
+
+.text-image-manintheforest p{
+    color: #111; 
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25.6px; 
+}
+
+.section-landscape{
+    width: 1140px;
+    height: 614px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.text-landscape{
+    width: 495px;
+    height: 494px;
+    flex-shrink: 0;
+    
+}
+
+.text-landscape h2{
+    color: #111;
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.6px;
+    padding: 32px 128px 10px 16px;
+}
+
+.text-landscape p{
+    color:#111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 26.6px;
+    padding: 10px 76px 114px 16px;
+}
+
+.box-grey{
+    width: 452px;
+    height: 400px;
+    background-color: #e5e5e5;
+    position: relative; 
+    left: 10%;
+}
+
+.image-enchantedforest{
+    width: 457px;
+    height: 309px;
+    background: url(/img/image-enchantedforest.jpg), lightgray 0px 0px / 100% 121.698% no-repeat;
+    box-shadow: 0px 0px 40px 0px rgba(26, 26, 26, 0.40);
+    position: absolute;
+    bottom: -35%;
+    left: -25%;
+    background-position: bottom right ;
+}
+
+.image-mountain{
+    width: 387px;
+    height: 477px;
+    background: url(/img/image-mountain.jpg), lightgray 0px 0px / 100% 121.698% no-repeat;
+    box-shadow: 0px 0px 40px 0px rgba(26, 26, 26, 0.40);
+    position: absolute;
+    top: -30%;
+    right: -8%;
+    background-position: center ;
+}
+
+.article-sobre{
+    width: 100%;
+    height: 1046px; 
+    background: url(/img/top-tree.jpg), lightgray 0px -103.885px / 100% 154.153% no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 107px auto;
+}
+
+.article-box{
+    width: 366.66px;
+    height: 405px;
+    flex-shrink: 0;
+    background-color: rgb(255, 255, 255,0.5) ; 
+    margin: 20px auto;
+}
+
+.article-title{
+    display: flex;
+    align-items: end;
+}
+
+.article-title h2{
+    color: #346473; 
+    font-family: Merriweather;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px; 
+    margin-top: 50px;
+    margin-left: 31px;
+}
+
+.article-title h3{
+    color: #111; 
+    font-family: Merriweather;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top: 50px;
+    margin-left: 31px; 
+}
+
+.article-box p {
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 25px 37px 15px 30px;
+}
+
+.article-box a {
+    color: #111;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #81C132;
+    text-decoration: none;
+}
+
+
+.section-current-project{
+    width: 1140px;
+    height: 897px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-currentproject-title{
+    width: 800px;
+    height: 176px;
+    margin-top: 85px auto;
+    
+}
+
+.section-currentproject-title h2{
+    color: #111; 
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.6px;
+}
+
+.section-currentproject-title p{
+    color: #111; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.image-project{
+    display: flex;
+    width: 1170px;
+    height: 424px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+}
+
+.image-current-project1, .image-current-project2, .image-current-project3, .image-current-project4{
+    width: 262px;
+    height: 394px;
+    padding: 0px 13.75px;
+
+}
+
+.image-current-project1{
+    background: url(/img/person_holding_a_sheet.jpg), lightgray -67.658px 0px / 151.549% 100% no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-current-project2{
+    background: url(/img/FOREST_CLEANUP.jpg), lightgray -67.658px 0px / 151.549% 100% no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-current-project3{
+    background: url(/img/NATIONAL_PARKS.jpg), lightgray -67.658px 0px / 151.549% 100% no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-current-project4{
+    background: url(/img/CLEAN_WATERS.jpg), lightgray -67.658px 0px / 151.549% 100% no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-current-project1 h2{
+    color: #111;
+    background-color: #e5e5e5; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.image-current-project2 h2{
+    color: #111;
+    background-color: #e5e5e5; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.image-current-project3 h2{
+    color: #111;
+    background-color: #e5e5e5; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.image-current-project4 h2{
+    color: #111;
+    background-color: #e5e5e5; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.line-center{
+    width: 114px;
+    height: 3px;
+    border: 2px solid #81C132;
+    margin: 25px auto;
+}
+
+.section-current-project a {
+    color: #454545; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px; /* 160% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #111;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 40px; 
+}
+
+.section-Savetheworld_1{
+    width: 1140px;
+    height: 577px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 auto;
+    background: url(/img/36ced675fffdf7503938e3778dc8b3ca.jpeg), lightgray 0px 0px / 127.169% 100% no-repeat; 
+}
+
+.article-savetheworld_1{
+    width: 1140px;
+    height: 371px;
+    display: flex;
+}
+
+.text-savetheworld_1{
+    width: 425px;
+    height: 371;
+    padding: 64px 30px;
+}
+
+.text-savetheworld_1 h2{
+    color: #111;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.text-savetheworld_1 p{
+    color: #111; 
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 32px;
+}
+
+.image-lakehouse{
+    width: 703px;
+    height: 596px;
+    background: url(/img/house_in_the_forest_on_the_lake.jpg), lightgray 0px 0px / 127.169% 100% no-repeat;
+    background-position: center;
+}
+
+.section-Savetheworld_2{
+    width: 1140px;
+    height: 577px; 
+    display: flex; 
+    align-items: center;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+
+.image-seeovertheforest{
+    width: 519px;
+    height: 318px;
+    background: url(/img/6e894e964a8ea9bcb8cc4a9357ed0132.jpg), lightgray 0px 0px / 127.169% 100% no-repeat;
+    padding: 39px 30px;
+    position: relative;
+    top: -2
+    0%;
+}
+
+.image-seeovertheforest h2{
+    color: #FFF; 
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;  
+}
+
+.image-seeovertheforest p {
+    color: #FFF; 
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; 
+    margin-top:  37px;
+    margin-bottom: 36px;
+}
+
+.image-seeovertheforest a {
+    color: #FFF; 
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;  
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 4px;
+
+}
+
+.text-savetheworld_2{
+    display: flex;
+    width: 407px;
+    height: 282px;
+    padding: 70px 11.67px 81.81px 23px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    position: relative;
+    right: -15%;
+    top: -5%;
+}
+
+.section-Savetheworld_3{
+    width: 1140px;
+    height: 613px;  
+    margin: 0 auto;
+
+}
+
+.section-currentproject-title{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.DISCOVER, .PROMOTE , .INVESTIGATE , .SUPPORT {
+    width: 277px;
+    height: 286;
+    padding: 72px 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.article-savetheworld_3{
+    display: flex;
+    justify-content: center; 
+}
+
+.DISCOVER h2{
+    color: #111; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; 
+    text-transform: uppercase;
+}
+
+.PROMOTE h2{
+    color: #111; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; 
+    text-transform: uppercase;
+}
+
+.INVESTIGATE h2{
+    color: #111; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; 
+    text-transform: uppercase;
+}
+
+.SUPPORT h2{
+    color: #111; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; 
+    text-transform: uppercase;
+}
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 299px;
+    padding: 0px 390px;
+    justify-content: center;
+    align-items: center;
+    background-color: #293133;
+}
+
+
+.section-footer{
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;  
+    justify-items: center;
+}
+
+.footer-messege{
+    width: 500px;
+    height: 74px;
+    color: #FFF; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; 
+    margin: 58px auto 0 auto;
+}
+
+.footer-line-center{   
+    width: 1140px;
+    height: 1px;
+    flex-shrink: 0;
+    border-top: 1px solid #FFF; 
+    opacity: 0.5;
+    margin: 20px 0 ;
+}
+
+.footer-rede-social{
+    width: auto;
+    height: 23px; 
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+.site-templeta{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #454545;
+    font-size: 16px;
+    padding: 10px 0 ;
+}
+
+.site-templeta a {
+    color: #fff;
+}
